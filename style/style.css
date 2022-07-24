@@ -7,7 +7,7 @@ body{
 }
 .carousel-bg-img-one{
     /* background-image: linear-gradient(to top(rgb(12, 12, 12),rgb(255, 255, 255))),url("/header-banner-img/w-1.jpg"); */
-    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("/images/header-banner-img/w-1.jpg");
+    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("header-banner-img/w-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -19,7 +19,7 @@ body{
 }
 .carousel-bg-img-two{
     /* background-image: linear-gradient(to top(rgb(12, 12, 12),rgb(255, 255, 255))),url("/header-banner-img/w-1.jpg"); */
-    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("/images/header-banner-img/w-2.jpg");
+    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("header-banner-img/w-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -29,7 +29,7 @@ body{
 }
 .carousel-bg-img-three{
     /* background-image: linear-gradient(to top(rgb(12, 12, 12),rgb(255, 255, 255))),url("/header-banner-img/w-1.jpg"); */
-    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("/images/header-banner-img/w-1.jpg");
+    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("header-banner-img/w-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -39,11 +39,11 @@ body{
 }
 .carousel-bg-img-four{
     /* background-image: linear-gradient(to top(rgb(12, 12, 12),rgb(255, 255, 255))),url("/header-banner-img/w-1.jpg"); */
-    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("/images/header-banner-img/w-5.jpg");
+    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("header-banner-img/w-5.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    height:100%;
+    height:80vh;
     width: 100%;
     
 }
