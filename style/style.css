@@ -1,0 +1,81 @@
+
+body{
+    overflow-y: auto;
+}
+#header-banner{
+    height:100%;
+}
+.carousel-bg-img-one{
+    /* background-image: linear-gradient(to top(rgb(12, 12, 12),rgb(255, 255, 255))),url("/header-banner-img/w-1.jpg"); */
+    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("/header-banner-img/w-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 80vh;
+    width: 100%;
+    
+    
+    
+}
+.carousel-bg-img-two{
+    /* background-image: linear-gradient(to top(rgb(12, 12, 12),rgb(255, 255, 255))),url("/header-banner-img/w-1.jpg"); */
+    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("/header-banner-img/w-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height:80vh;
+    width: 100%;
+    
+}
+.carousel-bg-img-three{
+    /* background-image: linear-gradient(to top(rgb(12, 12, 12),rgb(255, 255, 255))),url("/header-banner-img/w-1.jpg"); */
+    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("/header-banner-img/w-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height:80vh;
+    width: 100%;
+    
+}
+.carousel-bg-img-four{
+    /* background-image: linear-gradient(to top(rgb(12, 12, 12),rgb(255, 255, 255))),url("/header-banner-img/w-1.jpg"); */
+    background-image:linear-gradient(rgba(0,0, 0,0.5) 100%,transparent 50%) , url("/header-banner-img/w-5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height:100%;
+    width: 100%;
+    
+}
+.carousel-middle-text{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+    height: 100%;
+    
+}
+.carousel-middle-text .carousel-middle-inner-text {
+   /* background-color: rgb(241, 124, 124); */
+   width: 50%; 
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;
+   align-items: center;
+   color: white;
+}
+.carousel-middle-text .carousel-middle-inner-text h2{
+ font-size:2.41rem;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 700
+}
+.carousel-middle-text .carousel-middle-inner-text p{
+ font-size: 1rem;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400
+}
+.carousel-middle-text .btn{
+    background-color: white;
+    color: orange;
+    border: none;
+}
+
