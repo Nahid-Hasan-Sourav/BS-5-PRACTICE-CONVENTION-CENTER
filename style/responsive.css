@@ -18,8 +18,11 @@
        .right-col-text .alert{
      
          top: 61px;
-         left: -6px;
+         left: -3px;
           
+      }
+      .btn-text{
+         text-align: center;
       }
 }
 
@@ -45,33 +48,43 @@
      left: -9px;
       
   }
+  .btn-text{
+   text-align: center;
+}
  }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media  (min-width:768px) and (max-width: 991.98px) {
    .right-col-text .alert{
      
-     top:61px;
+     top:66px;
      left: -4px;
+     
       
   }
+  #second-part .right-col-text h1{
+   font-size: 2.2rem;
+}
  }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (min-width:992px) and (max-width: 1199.98px) { 
    .right-col-text .alert{
      
-      top: 100px;
+      top: 66px;
       left: -21px;
        
    }
+  
 }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (min-width:1200px) and (max-width: 1399.98px) {
    .right-col-text .alert{
      
-      top: 66px;
-      left: -7px;
+      /* top: 66px;
+      left: -7px; */
+      top: 42px;
+      left: -50px;
    }
 }
