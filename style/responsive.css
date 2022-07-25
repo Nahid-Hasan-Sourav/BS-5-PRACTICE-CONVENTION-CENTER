@@ -1,15 +1,26 @@
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 
  @media (max-width: 575.98px) { 
+  
+      html,body {
+         margin:0;
+         padding:0;
+         overflow-x:hidden;
+      }
+  
+   #header-banner{
+      background-color: blue;
+      z-index: 1;
+   }
     .carousel-middle-text .carousel-middle-inner-text {
-        border: 2px solid rgb(0, 0, 0);
-        width:100%;
+   
+         width:100%;
         
         
         
      }
      .carousel-bg-img-one{
-
+        width: 100%;
      }
      .carousel-middle-text .carousel-middle-inner-text h2{
         font-size: 2rem;
